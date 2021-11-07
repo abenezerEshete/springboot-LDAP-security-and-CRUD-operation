@@ -1,5 +1,7 @@
 package com.memorynotfound.ldap.security;
 
+import org.springframework.security.authentication.encoding.LdapShaPasswordEncoder;
+import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.security.authentication.encoding.PasswordEncoder;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
